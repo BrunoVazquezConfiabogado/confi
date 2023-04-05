@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import local font */
+@layer base {
+    @font-face {
+      font-family: 'TT Norms';
+      font-weight: 400;
+      src: url(./fonts/400-Regular.otf) format("otf");
+    }
+    body{
+        font-variant-ligatures: none;
+    }
+  }
