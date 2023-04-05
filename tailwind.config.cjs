@@ -7,7 +7,7 @@ module.exports = {
 				sans:['"TT Norms"', 'sans-serif']
 			},
 			colors:{
-				ghost: '#3C3744',
+				ghost: '#F7F7FF',
 				yale: {
 					1: '#003B7A',
 					2: '#0063CC',
