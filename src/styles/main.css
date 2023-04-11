@@ -7,9 +7,9 @@
 	@font-face {
 		font-family: 'TT Norms';
 		font-weight: 400;
-		src: url(/fonts/400-Regular.otf) format('otf');
+		src: local('TT Norms'), url(./fonts/400-Regular.otf) format('otf');
 	}
 	body {
-		font-variant-ligatures: none;
+		font-variant-ligatures: none !important;
 	}
 }
