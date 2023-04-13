@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'TT Norms';
-	src: url('../public/fonts/TT-Norms/400-regular-webfont.woff2')
-	format('woff2'),
-	url('../public/fonts/TT-Norms/100-thin-webfont.woff2') format('woff2'),
-		url('../public/fonts/TT-Norms/100-thinitalic-webfont.woff2')
+	src: url('../public/fonts/TT-Norms/200-extralight-webfont.woff2')
 			format('woff2'),
-		url('../public/fonts/TT-Norms/200-extralight-webfont.woff2')
+		url('../public/fonts/TT-Norms/400-regular-webfont.woff2')
+			format('woff2'),
+		url('../public/fonts/TT-Norms/100-thin-webfont.woff2') format('woff2'),
+		url('../public/fonts/TT-Norms/100-thinitalic-webfont.woff2')
 			format('woff2'),
 		url('../public/fonts/TT-Norms/200-extralightitalic-webfont.woff2')
 			format('woff2'),
@@ -28,6 +28,5 @@
 		url('../public/fonts/TT-Norms/900-heavy-webfont.woff2') format('woff2'),
 		url('../public/fonts/TT-Norms/900-heavyitalic-webfont.woff2')
 			format('woff2');
-	src: url('../public/fonts/TT-Norms/100-thin-webfont.woff2')
-	format('woff2'),
+	src: url('../public/fonts/TT-Norms/100-thin-webfont.woff2') format('woff2');
 }
