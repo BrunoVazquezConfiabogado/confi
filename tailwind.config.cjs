@@ -5,7 +5,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily:{
-				sans:['"/public/fonts/TT-Norms/400-regular-webfont.woff2"', 'sans-serif', ...defaultTheme.fontFamily.sans]
+				sans:['"TT Norms"', 'sans-serif', ...defaultTheme.fontFamily.sans]
 			},
 			colors:{
 				ghost: '#F7F7FF',
