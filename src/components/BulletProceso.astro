@@ -1,0 +1,19 @@
+---
+const {imagen, texto} = Astro.props;
+---
+
+<div class='flex flex-row gap-x-5 items-center my-6'>
+	<div class='bg-slate-300 rounded-full p-4 w-16'>
+		<img
+			class='mx-auto'
+			src={imagen}
+			alt='icono'
+			aria-hidden='true'
+		/>
+	</div>
+	<div>
+		<p class='text-lg text-jet-1'>
+			{texto}
+		</p>
+	</div>
+</div>
