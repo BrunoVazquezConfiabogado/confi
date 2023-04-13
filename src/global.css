@@ -28,4 +28,6 @@
 		url('../public/fonts/TT-Norms/900-heavy-webfont.woff2') format('woff2'),
 		url('../public/fonts/TT-Norms/900-heavyitalic-webfont.woff2')
 			format('woff2');
+	src: url('../public/fonts/TT-Norms/100-thin-webfont.woff2')
+	format('woff2'),
 }
