@@ -10,13 +10,13 @@
 	font-weight: 200;
 	font-style: normal;
 }
-@font-face {
+/* @font-face {
 	font-family: 'TT Norms';
 	src: url('../../public/fonts/TT-Norms/400-regular-webfont.woff2')
 		format('woff2');
 	font-weight: normal;
 	font-style: normal;
-}
+} */
 
 @layer base {
 	body {
