@@ -11,4 +11,5 @@ export default defineConfig({
 			},
 		}),
 	],
+	stylesheets: ['/src/global.css'],
 });

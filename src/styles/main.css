@@ -2,14 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* import local font */
+/* local font without ligature */
 @layer base {
-	@font-face {
-		font-family: 'TT Norms';
-		font-weight: 400;
-		font-display: block;
-		src: url(../../public/fonts/400-Regular.otf) format('otf');
-	}
 	body {
 		font-variant-ligatures: none !important;
 	}
