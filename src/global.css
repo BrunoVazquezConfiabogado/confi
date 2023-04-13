@@ -1,6 +1,8 @@
 @font-face {
 	font-family: 'TT Norms';
-	src: url('../public/fonts/TT-Norms/100-thin-webfont.woff2') format('woff2'),
+	src: url('../public/fonts/TT-Norms/400-regular-webfont.woff2')
+	format('woff2'),
+	url('../public/fonts/TT-Norms/100-thin-webfont.woff2') format('woff2'),
 		url('../public/fonts/TT-Norms/100-thinitalic-webfont.woff2')
 			format('woff2'),
 		url('../public/fonts/TT-Norms/200-extralight-webfont.woff2')
@@ -11,8 +13,6 @@
 		url('../public/fonts/TT-Norms/300-lightitalic-webfont.woff2')
 			format('woff2'),
 		url('../public/fonts/TT-Norms/400-italic-webfont.woff2') format('woff2'),
-		url('../public/fonts/TT-Norms/400-regular-webfont.woff2')
-			format('woff2'),
 		url('../public/fonts/TT-Norms/500-mediumitalic-webfont.woff2')
 			format('woff2'),
 		url('../public/fonts/TT-Norms/600-bold-webfont.woff2') format('woff2'),
