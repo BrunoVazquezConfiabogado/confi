@@ -14,7 +14,6 @@ import Registro from '/assets/ic-registro.svg';
 import Divorcio from '/assets/ic-divorcio.svg';
 import Despido from '/assets/ic-despido.svg';
 import Pension from '/assets/ic-pension.svg';
-
 ---
 
 <Base>
@@ -137,18 +136,39 @@ import Pension from '/assets/ic-pension.svg';
 	</section>
 	<!-- section 3 -->
 	<section>
-		<div class="bg-orange-300 flex flex-row">
-			<div class="bg-teal-300 grid grid-cols-2 gap-5 m-8">
-				<CardOptions imagen={Registro} texto='Registro de marca'/>
-				<CardOptions imagen={Despido} texto='Despido injustificado'/>
-				<CardOptions imagen={Divorcio} texto='Divorcio'/>
-				<CardOptions imagen={Pension} texto='Pensión alimenticia'/>
-				 <!-- añadir leyenda en select
-				<div>Despido injustificado</div>
-				<div>Divorcio</div>
-				<div>Pensión alimenticia</div> -->
+		<div class='flex flex-row'>
+			<div class='grid grid-cols-2 gap-5 m-8 w-9/12'>
+				<CardOptions
+					imagen={Registro}
+					texto='Registro de marca'
+				/>
+				<CardOptions
+					imagen={Despido}
+					texto='Despido injustificado'
+				/>
+				<CardOptions
+					imagen={Divorcio}
+					texto='Divorcio'
+				/>
+				<CardOptions
+					imagen={Pension}
+					texto='Pensión alimenticia'
+				/>
 			</div>
-			<div class="bg-purple-300">b</div>
+			<div class='w-1/2'>
+				<div class='flex flex-col mx-auto p-10'>
+					<p class="text-jet-1 text-2xl font-semibold text-right">Conoce nuestras áreas legales</p>
+					<p class='text-jet-1 mt-5'>
+						Somos expertos en estas áreas legales, así que no dudes
+						en contactarnos para realizar tu primera asesoría gratis
+						y posteriormente darle seguimiento a tu caso.
+					</p>
+					<a
+						class='py-4 mt-10 px-12 mx-auto text-ghost bg-yale-1 rounded-lg ease-in duration-300 hover:font-medium hover:cursor-pointer hover:shadow-md hover:shadow-yale-3/50 hover:scale-105 flex flex-row'
+						>Comienza tu asesoría</a
+					>
+				</div>
+			</div>
 		</div>
 	</section>
 </Base>
