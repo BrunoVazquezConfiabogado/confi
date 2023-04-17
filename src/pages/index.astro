@@ -143,23 +143,35 @@ import AbDigital from '/assets/abogado-digital-logo.svg';
 	<!-- section 3 -->
 	<section>
 		<div class='flex flex-row'>
-			<div class='grid grid-cols-2 gap-5 m-8 w-9/12'>
-				<CardOptions
-					imagen={Registro}
-					texto='Registro de marca'
-				/>
-				<CardOptions
-					imagen={Despido}
-					texto='Despido injustificado'
-				/>
-				<CardOptions
-					imagen={Divorcio}
-					texto='Divorcio'
-				/>
-				<CardOptions
-					imagen={Pension}
-					texto='Pensión alimenticia'
-				/>
+			<div class="flex flex-col w-9/12">
+				<div class='flex flex-row gap-8 mx-auto my-4'>
+					<a href='/registro-de-marca/'>
+					<CardOptions
+						imagen={Registro}
+						texto='Registro de marca'
+					/>
+				</a>
+				<a href='/despido-injustificado/'>
+					<CardOptions
+						imagen={Despido}
+						texto='Despido injustificado'
+					/>
+					</a>
+				</div>
+				<div class='flex flex-row gap-8 mx-auto my-4'>
+					<a href='/divorcio/'>
+					<CardOptions
+						imagen={Divorcio}
+						texto='Divorcio'
+					/>
+				</a>
+				<a href="/pension-alimenticia">
+					<CardOptions
+						imagen={Pension}
+						texto='Pensión alimenticia'
+					/>
+				</a>
+				</div>
 			</div>
 			<div class='w-1/2'>
 				<div class='flex flex-col mx-auto p-10'>
