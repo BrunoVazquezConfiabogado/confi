@@ -1,0 +1,9 @@
+---
+const {imagen, texto} = Astro.props;
+
+---
+
+<div class="p-4 flex flex-col w-36 h-30 items-center rounded-md border-2 border-yale-1 m-5 hover:cursor-pointer hover:bg-yale-1 hover:shadow-lg group">
+    <img class='mx-auto' src={imagen} alt='' aria-hidden="true"/>
+    <p class='text-jet-1 text-center mt-2 group-hover:text-ghost'>{texto}</p>
+</div>

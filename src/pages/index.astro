@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import BulletProcess from '../components/BulletProceso.astro';
+import CardOptions from '../components/CardOptions.astro';
 import ImgPrincipal from '/assets/index-imagen.png';
 import DownArrow from '/assets/ic-doble-arrow.svg';
 import Star from '/assets/ic-star.svg';
@@ -9,6 +10,11 @@ import Group from '/assets/ic-group.svg';
 import Chat from '/assets/ic-chat.svg';
 import Money from '/assets/ic-money.svg';
 import Persona from '/assets/persona-app.png';
+import Registro from '/assets/ic-registro.svg';
+import Divorcio from '/assets/ic-divorcio.svg';
+import Despido from '/assets/ic-despido.svg';
+import Pension from '/assets/ic-pension.svg';
+
 ---
 
 <Base>
@@ -127,6 +133,22 @@ import Persona from '/assets/persona-app.png';
 					alt='Persona revisando su situación legal en confiabogado'
 				/>
 			</div>
+		</div>
+	</section>
+	<!-- section 3 -->
+	<section>
+		<div class="bg-orange-300 flex flex-row">
+			<div class="bg-teal-300 grid grid-cols-2 gap-5 m-8">
+				<CardOptions imagen={Registro} texto='Registro de marca'/>
+				<CardOptions imagen={Despido} texto='Despido injustificado'/>
+				<CardOptions imagen={Divorcio} texto='Divorcio'/>
+				<CardOptions imagen={Pension} texto='Pensión alimenticia'/>
+				 <!-- añadir leyenda en select
+				<div>Despido injustificado</div>
+				<div>Divorcio</div>
+				<div>Pensión alimenticia</div> -->
+			</div>
+			<div class="bg-purple-300">b</div>
 		</div>
 	</section>
 </Base>
