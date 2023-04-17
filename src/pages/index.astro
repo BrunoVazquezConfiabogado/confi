@@ -10,10 +10,16 @@ import Group from '/assets/ic-group.svg';
 import Chat from '/assets/ic-chat.svg';
 import Money from '/assets/ic-money.svg';
 import Persona from '/assets/persona-app.png';
+import PersonaTestimonial from '/assets/persona1.png';
 import Registro from '/assets/ic-registro.svg';
 import Divorcio from '/assets/ic-divorcio.svg';
 import Despido from '/assets/ic-despido.svg';
 import Pension from '/assets/ic-pension.svg';
+import ArrowLeft from '/assets/ic-arrow-left.svg';
+import ArrowRight from '/assets/ic-arrow-right.svg';
+import Forbes from '/assets/logo-forbes.svg';
+import ForoJuridico from '/assets/foro-juridico-logo.svg';
+import AbDigital from '/assets/abogado-digital-logo.svg';
 ---
 
 <Base>
@@ -171,4 +177,31 @@ import Pension from '/assets/ic-pension.svg';
 			</div>
 		</div>
 	</section>
+	<!-- section 3 -->
+	<section class='flex flex-row h-screen w-screen'>
+		<div class='bg-indigo-300 w-1/2 flex flex-col'>
+			<p class='text-jet-1 text-4xl font-semibold'>Nuestros usuarios <br/> nos avalan</p>
+			<div class='flex flex-row'>
+				<button><img src={ArrowLeft}/></button>
+				<button><img src={ArrowRight}/></button>
+			</div>
+			<p class='text-jet-1 text-xl font-light italic'>"Confiabogado, el vínculo entre el mundo legal, la tecnología y los ciudadanos."</p>
+			<img class='w-32' src={Forbes} alt='Logotipo de Forbes'/>
+		</div>
+		<div class='bg-orange-300 w-1/2 flex flex-col'>
+			<div class='bg-pink-400 flex flex-col m-5 rounded-lg p-5 w-5/12'>
+				<img class='w-20 mt-2' src={PersonaTestimonial} alt='Fotografía de una persona que compartió su experiencia en confiabogado'/>
+				<p class='text-jet-1 font-semibold text-3xl my-4 mx-1'>"Me ayudaron a obtener mi finiquito de forma rápida y sencilla."</p>
+				<p class='text-jet-1 text-regular my-5 text-right'>Juan Velázquez</p>
+			</div>
+		</div>
+	</section>
+	<div class='w-screen flex flex-col'>
+		<div><p class='text-jet-1 font-semibold text-4xl text-center my-10'>Nos has visto en</p></div>
+		<div class='flex flex-row gap-x-16 mx-auto mb-10'>
+			<img class='w-52' src={ForoJuridico} alt='Logotipo de foro jurídico'/>
+			<img class='w-52' src={Forbes} alt='Logotipo de forbes'/>
+			<img class='w-52' src={AbDigital} alt='Logotipo de abogado digital'/>
+		</div>
+	</div>
 </Base>
