@@ -2,9 +2,9 @@
 import Logo from '/assets/logo.svg';
 import '../styles/hamburger-menu.css';
 ---
-
+<>
 <div
-	class='bg-ghost/80 backdrop-blur shadow flex flex-row py-3 px-6 justify-between items-center fixed w-screen z-[999]'
+	class='bg-ghost/80 backdrop-blur shadow flex flex-row py-3 px-6 justify-between items-center fixed w-full z-[999]'
 >
 	<div>
 		<a href='/'
@@ -70,3 +70,12 @@ import '../styles/hamburger-menu.css';
 		</button>
 	</div>
 </div>
+<div class='w-full h-full bg-red-400 z-[998]'>
+	<div class='flex flex-col gap-y-12 p-4 pt-32 text-center'>
+		<a class='text-jet-1 font-semibold text-xl hover:text-stone-900 hover:underline' href='/despido-injustificado/'>Despido injustificado</a>
+		<a class='text-jet-1 font-semibold text-xl hover:text-stone-900 hover:underline' href='/registro-de-marca/'>Registro de marca</a>
+		<a class='text-jet-1 font-semibold text-xl hover:text-stone-900 hover:underline' href='/divorcio/'>Divorcio</a>
+		<a class='text-jet-1 font-semibold text-xl hover:text-stone-900 hover:underline' href='/pension-alimenticia/'>Pensión alimenticia</a>
+	</div>
+</div>
+</>
